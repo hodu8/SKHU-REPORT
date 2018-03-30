@@ -1,0 +1,5 @@
+img1 = open("C:\\Users\\박찬우\\Desktop\\잡\\shiba.jpg", "rb")
+img2 = open("shiba2.jpg", "wb")
+img2.write(img1.read())
+img1.close()
+img2.close()
