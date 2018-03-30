@@ -1,0 +1,22 @@
+﻿빌드 시작: 2017-04-17 오후 10:07:02
+     1>2 노드의 "c:\Users\박찬우\documents\visual studio 2010\Projects\멘토링 문제\멘토링 문제\멘토링 문제.vcxproj" 프로젝트(ClCompile 대상)입니다.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt "멘토링 문제.c"
+         멘토링 문제.c
+     1>c:\users\박찬우\documents\visual studio 2010\projects\멘토링 문제\멘토링 문제\멘토링 문제.c(10): error C2143: 구문 오류 : ';'이(가) '형식' 앞에 없습니다.
+     1>c:\users\박찬우\documents\visual studio 2010\projects\멘토링 문제\멘토링 문제\멘토링 문제.c(10): error C2143: 구문 오류 : ';'이(가) '형식' 앞에 없습니다.
+     1>c:\users\박찬우\documents\visual studio 2010\projects\멘토링 문제\멘토링 문제\멘토링 문제.c(10): error C2143: 구문 오류 : ')'이(가) '형식' 앞에 없습니다.
+     1>c:\users\박찬우\documents\visual studio 2010\projects\멘토링 문제\멘토링 문제\멘토링 문제.c(10): error C2143: 구문 오류 : ';'이(가) '형식' 앞에 없습니다.
+     1>c:\users\박찬우\documents\visual studio 2010\projects\멘토링 문제\멘토링 문제\멘토링 문제.c(10): error C2065: 'n' : 선언되지 않은 식별자입니다.
+     1>c:\users\박찬우\documents\visual studio 2010\projects\멘토링 문제\멘토링 문제\멘토링 문제.c(10): warning C4552: '<' : 의미 없는 연산자입니다. 파생 작업이 있는 연산자여야 합니다.
+     1>c:\users\박찬우\documents\visual studio 2010\projects\멘토링 문제\멘토링 문제\멘토링 문제.c(10): error C2065: 'n' : 선언되지 않은 식별자입니다.
+     1>c:\users\박찬우\documents\visual studio 2010\projects\멘토링 문제\멘토링 문제\멘토링 문제.c(10): error C2059: 구문 오류 : ')'
+     1>c:\users\박찬우\documents\visual studio 2010\projects\멘토링 문제\멘토링 문제\멘토링 문제.c(11): error C2143: 구문 오류 : ';'이(가) '{' 앞에 없습니다.
+     1>c:\users\박찬우\documents\visual studio 2010\projects\멘토링 문제\멘토링 문제\멘토링 문제.c(12): error C2065: 'n' : 선언되지 않은 식별자입니다.
+     1>c:\users\박찬우\documents\visual studio 2010\projects\멘토링 문제\멘토링 문제\멘토링 문제.c(12): error C2065: 'n' : 선언되지 않은 식별자입니다.
+     1>c:\users\박찬우\documents\visual studio 2010\projects\멘토링 문제\멘토링 문제\멘토링 문제.c(14): error C2065: 'n' : 선언되지 않은 식별자입니다.
+     1>"c:\Users\박찬우\documents\visual studio 2010\Projects\멘토링 문제\멘토링 문제\멘토링 문제.vcxproj" 프로젝트를 빌드했습니다(ClCompile 대상). - 실패
+
+빌드하지 못했습니다.
+
+경과 시간: 00:00:00.09
