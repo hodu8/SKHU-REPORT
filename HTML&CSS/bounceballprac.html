@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <style>
+      div {
+        position: absolute;
+        width: 25px;
+        height: 25px;
+        border-radius: 50%;
+        border-style: inset;
+        border-color: white yellow black pink;
+        animation: bounce1 infinite alternate;
+        animation: bounce2 infinite alternate;
+      }
+      @keyframes bounce1 {
+        from { background: red; bottom: 0px;}
+        50% { background: yellow; }
+        to { background: blue; bottom:700px;}
+      }
+      @keyframes bounce2 {
+        from { background: blue; bottom: 0px;}
+        50% { background: pink; }
+        to { background : red;bottom:700px;}
+      }
+      .div1 {
+        animation-name: bounce1;
+        animation-timing-function: ease-out;
+        animation-duration: 3s;
+        left: 400px;
+      }
+      .div2 {
+        animation-name: bounce2;
+        animation-timing-function: linear;
+        animation-duration: 3s;
+        left: 500px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="div1">
+    </div>
+    <div class="div2">
+    </div>
+  </body>
+</html>

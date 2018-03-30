@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>1012 201732015 form 03.html</title>
+  </head>
+  <body>
+    <form>
+      <table style="width:110%;">
+        <tr>
+          <th>
+            이름
+          </th>
+          <td>
+            <input type="text" name="name" autofocus/>
+          </td>
+        </tr>
+        <tr>
+          <th>
+          주민등록번호
+          </th>
+          <td>
+          <input type="text" name="first_num" /> <b>-</b> <input type="password" name="num" />
+          </td>
+        </tr>
+        <tr>
+          <th>
+            아이디
+          </th>
+          <td>
+            <input type="text" name="id" required/>
+          </td>
+        </tr>
+        <tr>
+          <th>
+            비밀번호
+          </th>
+          <td>
+            <input type="password" name="password" required/> 영문/숫자포함 6자 이상
+          </td>
+        </tr>
+        <tr>
+          <th>
+            비밀번호 확인
+          </th>
+          <td>
+            <input type="password" name="passwordcheck" required />
+          </td>
+        </tr>
+        <tr>
+          <th>
+            비밀번호 힌트/답변
+          </th>
+          <td>
+            <select>
+              <option value="1" hidden="hidden">선택하세요</option>
+              <option value="2">당신의 출신 초등학교는 어딥니까?</option>
+              <option value="3">당신의 보물 1호는?</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <th>
+            답변
+          </th>
+          <td>
+            <input type="text" name="answer" />
+          </td>
+        </tr>
+        <tr>
+          <th>
+            이메일
+          </th>
+          <td>
+            <input type="text" name="e-mail_first" />@
+            <input type="text" name="e-mail" />
+            <select>
+              <option value="1" hidden="hidden">직접입력</option>
+              <option value="2">daum.net</option>
+              <option value="3">gmail.com</option>
+              <option value="4">hanmail.net</option>
+              <option value="5">msn.com</option>
+              <option value="6">naver.com</option>
+              <option value="7">nate.com</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <th rowspan="2">
+            주소
+          </th>
+          <td>
+            <input type="text" name="adress" /> <b>-</b>
+            <input type="text" />
+            <input type="text" />
+          </td>
+        </tr>
+        <td>
+          <input type="text" />
+        </td>
+        <tr>
+          <th>
+            전화번호
+          </th>
+          <td>
+            <input type="text" name="hp" /> <b>-</b>
+            <input type="text"  /> <b>-</b>
+            <input type="text" />
+          </td>
+        </tr>
+        <tr>
+          <th>
+            핸드폰 번호
+          </th>
+          <td>
+            <input type="text" name="phonenumber" placeholder="010" /> <b>-</b>
+            <input type="text"  /> <b>-</b>
+            <input type="text"  />
+          </td>
+        </tr>
+        <tr>
+          <th>
+            직업
+          </th>
+          <td>
+            <select name="job">
+              <option value="1" hidden="hidden">선택하세요</option>
+              <option value="2">학생</option>
+              <option value="3">컴퓨터/인터넷</option>
+              <option value="4">언론</option>
+              <option value="5">공무원</option>
+              <option value="6">군인</option>
+              <option value="7">서비스업</option>
+              <option value="8">교육</option>
+              <option value="9">금융/증권/보험업</option>
+              <option value="10">유통업</option>
+              <option value="11">예술</option>
+              <option value="12">의료</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <th>
+            메일/sns 정보 수신
+          </th>
+          <td>
+            <input type="radio" name="accept" checked /> 수신
+            <input type="radio" name="accept" /> 수신거부
+          </td>
+        </tr>
+        <tr>
+          <th>
+            관심분야
+          </th>
+          <td>
+            <input type="checkbox" name="category" /> <b>html5</b>
+            <input type="checkbox" /> <b>css3</b>
+            <input type="checkbox" /> <b>javascript</b>
+            <input type="checkbox" /> <b>php</b>
+            <input type="checkbox" /> <b>jquery</b>
+          </td>
+        </tr>
+        <tr>
+          <th>
+            가입경로
+          </th>
+          <td>
+            <select>
+              <option value="1" hidden="hidden">선택하세요</option>
+              <option value="2">네이버검색</option>
+              <option value="3">다음검색</option>
+              <option value="4">기타검색엔진</option>
+              <option value="5">카페or동호회를 통해</option>
+              <option value="6">지인의소개</option>
+              <option value="7">기타</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <th>
+            정보공개여부
+          </th>
+          <td>
+            <select>
+              <option value="1" hidden="hidden">선택하세요</option>
+              <option value="2">모두공개</option>
+              <option value="3">비공개</option>
+              <option value="4">1단계공개</option>
+              <option value="5">2단계공개</option>
+            </select>
+          </td>
+        </tr>
+          <tr>
+            <td colspan="3">
+              <center><input type="submit" value="회원가입" />
+              <input type="reset" value="취소" /></center>
+            </td>
+        </tr>
+      </table>
+    </form>
+  </body>
+</html>
