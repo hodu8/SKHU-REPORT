@@ -6,13 +6,14 @@
 작성일 : 2017. 9. 27.
 작성자 : 박찬우
 """
-word=input("단어를 입력하세요 : ") #사용자로부터 단어를 입력하세요
+word=input("단어를 입력하세요 : ") #사용자로부터 단어를 입력받으세요
 
-l=list(word)
-l.sort()
-word=""
+l=list(word) #word에 저장된 문자열을 l에 다시 저장
+l.sort() #l에 저장된 값들을 정렬
+print(l)
+word="" #word를 다시 공백으로 초기화
 
-for i in range (0, len(l)):
-    word+=l[i]
-print(word)
-print(len(l))
+for i in range (0, len(l)): #반복문 시작
+    word+=l[i] #word에 l의 i번째 요소를 추가
+print(word) #word를 출력
+print(len(l)) #해당 단어의 길이를 출력
