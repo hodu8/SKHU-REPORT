@@ -1,0 +1,21 @@
+/*
+ * 작성자 : 박찬우
+ * 작성일 : 2018.04.06.
+ * 파일 내용 : 은행 계좌를 나타내는 클래스
+ */
+
+package lab5_3;
+
+public class BankAccount {
+	int balance = 0;
+
+	void deposit(int dep) {
+		balance += dep;
+	}
+	int getBalance() {
+		return balance;
+	}
+	void withdraw(int money) {
+		balance-=money;
+	}
+}

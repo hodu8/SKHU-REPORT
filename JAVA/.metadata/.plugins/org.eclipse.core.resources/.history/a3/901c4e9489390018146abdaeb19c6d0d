@@ -1,0 +1,15 @@
+package lab5_3;
+
+public class BankAccountTest {
+
+	public static void main(String[] args) {
+		BankAccount Bank = new BankAccount();
+		Bank.deposit(2000);
+		Bank.deposit(3000);
+		System.out.println(Bank.balance);
+		
+		System.out.println(Bank.getBalance());
+		Bank.withdraw(1000);
+		System.out.println(Bank.getBalance());
+	}
+}

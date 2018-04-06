@@ -1,0 +1,29 @@
+/*
+ * 파일명: Point.java
+ * 작성일: 2018.4.5
+ * 작성자: 홍길동
+ * 내용:  x 좌표를 갖는 1차원 점을 표현하는 Point 클래스를 정의
+ */
+
+package lab5_4;
+
+public class Point {
+	double x=0;
+	void move(double offset) {
+		x+=offset;
+	}
+	void move() {
+		x++;
+	}
+	@Override
+	public String toString() {
+		return "Point [x=" + x + "]";
+	}
+	void distance(double dis) {
+		double result = x-dis;
+		if (result<0)
+			return -result;
+		else if (result>=0)
+			return result;
+	}
+}

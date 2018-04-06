@@ -1,0 +1,15 @@
+package lab5_3;
+
+public class BankAccount {
+	int balance = 0;
+
+	void deposit(int dep) {
+		balance += dep;
+	}
+	int getBalance() {
+		return balance;
+	}
+	void withdraw(int money) {
+		balance-=money;
+	}
+}
