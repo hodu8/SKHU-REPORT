@@ -1,0 +1,19 @@
+package lab5_2;
+
+public class TelevisionTest {
+
+	public static void main(String[] args) {
+		Television [] tv = new Television[3];
+		for (int i=0; i<3; i++) {
+			tv[i] = new Television();
+		}
+		tv[0].channel = 7;
+		tv[1].channel = 7;
+		tv[2].channel = 11;
+		
+		for (int j=0; j<3; j++) {
+			System.out.println(tv[j].channel);
+		}
+	}
+
+}
