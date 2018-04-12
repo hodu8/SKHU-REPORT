@@ -2,11 +2,13 @@
 <section name="Workbench">
 	<section name="FatJarPackageWizard">
 		<item value="C:\Users\박찬우\Desktop\ㄷㅎ\personal\Git\SKHU_REPORT\JAVA" key="FatJarPackageWizardPage.ANTSCRIPT_LOCATION"/>
-		<item value="TelevisionTest - lab5_2" key="FatJarPackageWizardPage.LAUNCH_CONFIGURATION_SELECTION_NAME"/>
-		<item value="C:\Users\박찬우\Desktop\ㄷㅎ\자바 프로그래밍\과제\lab5_2.jar" key="FatJarPackageWizardPage.DESTINATION_PATH_SELECTION"/>
+		<item value="StudentTest - lab6_1" key="FatJarPackageWizardPage.LAUNCH_CONFIGURATION_SELECTION_NAME"/>
+		<item value="C:\Users\박찬우\Desktop\ㄷㅎ\자바 프로그래밍\과제\lab6_1.jar" key="FatJarPackageWizardPage.DESTINATION_PATH_SELECTION"/>
 		<item value="false" key="FatJarPackageWizardPage.ANTSCRIPT_SAVE"/>
 		<item value="1" key="FatJarPackageWizardPage.LIBRARY_HANDLING"/>
 		<list key="FatJarPackageWizardPage.DESTINATION_NAMES_ID">
+			<item value="C:\Users\박찬우\Desktop\ㄷㅎ\자바 프로그래밍\과제\lab6_1.jar"/>
+			<item value="C:\Users\박찬우\Desktop\ㄷㅎ\자바 프로그래밍\과제\lab5_5.jar"/>
 			<item value="C:\Users\박찬우\Desktop\ㄷㅎ\자바 프로그래밍\과제\lab5_2.jar"/>
 			<item value="C:\Users\박찬우\Desktop\ㄷㅎ\자바 프로그래밍\과제\lab5_3.jar"/>
 			<item value="C:\Users\박찬우\Desktop\ㄷㅎ\자바 프로그래밍\과제\lab5_4.jar"/>
