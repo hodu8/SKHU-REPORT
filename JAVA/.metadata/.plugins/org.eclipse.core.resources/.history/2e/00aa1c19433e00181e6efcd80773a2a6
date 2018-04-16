@@ -1,0 +1,18 @@
+package hw5_1;
+
+import lab5_2.Television;
+
+public class Driver {
+
+	public static void main(String[] args) {
+		Member [] member = new Member[5];
+		for (int i=0; i<5; i++)
+			member[i].memberRank(i+1);
+		for (int j=0; j<5; j++)
+			member[j].memberPoint();
+		for (int k=0; k<5; k++)
+			member[k].memberPoint();
+		for (int l=0; l<5; l++)
+			System.out.println(member[l].discountPercent());
+	}
+}

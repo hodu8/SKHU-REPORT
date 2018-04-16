@@ -1,0 +1,25 @@
+package hw5_1;
+
+public class Member {
+	int mrank = 0;
+	int point = 0;
+	void memberRank (int rank) {
+		mrank = rank;
+	}
+	void memberPoint () {
+		if (mrank == 1)
+			point+=100;
+		else if (mrank == 2)
+			point+=50;
+		else if (mrank == 3)
+			point+=40;
+		else
+			point+=10;
+	}
+	double discountPercent () {
+		if (point>=100)
+			return 0.2;
+		else
+			return 0.1;
+	}
+}
