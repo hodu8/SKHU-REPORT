@@ -1,0 +1,12 @@
+package hw6_2;
+import java.util.Scanner;
+
+public class BankAccountTest {
+
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+		BankAccount account1 = new BankAccount(1, "kim", 9000);
+		BankAccount account2 = new BankAccount(2, "lee");
+		account2.deposit();
+	}
+}
