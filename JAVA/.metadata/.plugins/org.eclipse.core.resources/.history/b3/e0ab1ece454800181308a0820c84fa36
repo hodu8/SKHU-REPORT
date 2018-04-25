@@ -1,0 +1,73 @@
+/*
+  파일명: Student.java
+  작성일: 2018.4.24
+  작성자: 박찬우
+  내용: 이름, 도시, 국가 정보를 갖는 학생 클래스를 정의
+  과제 수행시 유의사항: Student 클래스 외부에서는 Student가 이름, 도시, 국가 정보로 이루어진 것으로 알고 있으며, Address 클래스의 존재는 알지 못함
+ */
+
+public class Student {
+	// (1) private inner class인 Address 클래스 정의 - 필드는 도시(city)와 국가(country), 메소드는 생성자(도시, 국가를 매개변수로 받음)
+
+
+
+
+
+
+
+
+
+
+	// (2) 2개의 private 필드 선언 - 이름(String 타입), 주소(Address 타입)
+
+
+
+
+
+
+	// (3) 생성자 정의 - name, city, country를 매개변수로 받음
+	public Student(String name, String city, String country) {
+
+
+
+
+
+	}
+
+	// (4) 이름을 리턴하는 메소드
+	public String getName() {
+
+
+
+	}
+
+	// (5) 도시를 리턴하는 메소드
+	public String getCity() {
+
+
+
+	}
+
+	// (6) 국가를 리턴하는 메소드
+	public String getCountry() {
+
+
+
+	}
+
+	// (7) 매개변수로 받은 도시, 국가로 이사하는 메소드
+	public void move(String city, String country) {
+
+
+
+
+	}
+
+	// (8) 이름, 도시, 국가를 문자열로 리턴하는 메소드
+	@Override
+	public String toString() {
+
+
+
+	}
+}
