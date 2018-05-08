@@ -39,5 +39,4 @@ public class StringTest {
 		// (8) s1과 s2를 사전적으로 비교한 결과 출력(음수, 0, 양수)
 		System.out.println(s1.compareTo(s2));
 	}
-
 }
