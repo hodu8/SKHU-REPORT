@@ -1,0 +1,25 @@
+package hw7_1;
+
+public class MinusAccount extends BankAccount{
+	private int limit = 0;
+	public MinusAccount (int id, int balance, int limit){
+		super(id, balance);
+		this.limit = limit;
+	}
+	public MinusAccount (int id, int limit){
+		super(id,0);
+		this.limit = limit;
+	}
+	@Override
+	public void withdraw (int amount){
+		if (getBalance()-amount < -(limit))
+			System.out.println("잔액 부족으로 출금 실패");
+		else {
+			System.out.println("계좌 " + id + ": " + amount + "원 출금");
+			super.BankAccount(id, amount);
+		}
+	}
+	public int getLimit() {
+		return limit;
+	}
+}

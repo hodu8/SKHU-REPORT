@@ -1,0 +1,13 @@
+package hw7_1;
+
+public class MinusAccount extends BankAccount{
+	private int limit = 0;
+	public MinusAccount (int id, int balance, int limit){
+		super(id, balance);
+		this.limit = limit;
+	}
+	public MinusAccount (int id, int limit){
+		super(id,0);
+		this.limit = limit;
+	}
+}

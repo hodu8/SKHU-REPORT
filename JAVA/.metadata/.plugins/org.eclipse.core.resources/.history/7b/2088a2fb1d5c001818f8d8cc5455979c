@@ -1,0 +1,20 @@
+package hw7_1;
+import java.util.Scanner;
+
+public class AccountTest {
+
+	public static void main(String[] args) {
+		System.out.println("hw7_1 : 박찬우");
+		Scanner scan = new Scanner(System.in);
+		NormalAccount acc1 = new NormalAccount(11, 1000);
+		NormalAccount acc2 = new NormalAccount(22);
+		MinusAccount acc3 = new MinusAccount(33, 1000, 500);
+		MinusAccount acc4 = new MinusAccount(44, 500);
+		
+		System.out.println("최대 출금가능액");
+		System.out.println(acc1.getBalance());
+		System.out.println(acc2.getBalance());
+		System.out.println(acc3.getBalance()+acc3.getLimit());
+	}
+
+}

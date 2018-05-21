@@ -1,0 +1,18 @@
+package hw7_1;
+
+public class NormalAccount extends BankAccount {
+	public NormalAccount(int id, int balance){
+		super(id, balance);
+	}
+	public NormalAccount (int id){
+		super(id, 0);
+	}
+	@Override
+	public void withdraw (int amount){
+		if (getBalance()-amount < 0)
+			System.out.println("잔액 부족으로 출금 실패");
+		else {
+			super.withdraw(amount);
+		}
+	}
+}

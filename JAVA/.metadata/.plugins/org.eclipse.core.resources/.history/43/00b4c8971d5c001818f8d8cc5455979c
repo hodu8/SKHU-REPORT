@@ -1,0 +1,16 @@
+package hw7_1;
+import java.util.Scanner;
+
+public class AccountTest {
+
+	public static void main(String[] args) {
+		System.out.println("hw7_1 : ¹ÚÂù¿ì");
+		Scanner scan = new Scaaner(system.in);
+		NormalAccount acc1 = new NormalAccount(11, 1000);
+		NormalAccount acc2 = new NormalAccount(22);
+		MinusAccount acc3 = new MinusAccount(33, 1000, 500);
+		MinusAccount acc4 = new MinusAccount(44, 500);
+		
+	}
+
+}
