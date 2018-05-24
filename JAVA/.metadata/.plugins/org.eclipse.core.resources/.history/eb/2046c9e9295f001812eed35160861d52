@@ -1,0 +1,24 @@
+/*
+ * 주제 : 사람 클래스
+ * 작성일 : 2018.05.24.
+ * 작성자 : 박찬우
+ */
+
+package hw9_1;
+
+public class Person implements Speakable{ // Speakable을 구현
+	String name;
+	public Person(String name) {
+		this.name = name;
+	}
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	@Override
+	public void speak() {
+		System.out.print("안녕하세요\n" + name + "입니다.\n");
+	}
+}

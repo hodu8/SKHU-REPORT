@@ -1,0 +1,25 @@
+package hw7_2;
+
+public class MemberTest {
+
+	public static void main(String[] args) {
+		Member []members = new Member[4];
+		members[0] = new HourlyMember(22, 2);
+		members[1] = new HourlyMember(33, 3);
+		members[2] = new RegularMember(44);
+		members[3] = new RegularMember(55);
+		
+		for (int i=0; i<4; i++) {
+			int ageSum = 0;
+			ageSum += members[i].getAge();
+			if (i == 1)
+				System.out.println(ageSum);
+		}
+		for (int i=0; i<4; i++) {
+			int paymentSum = 0;
+			paymentSum += members[i].getPayment();
+			if (i == 1)
+				System.out.println(paymentSum);
+		}
+	}
+}

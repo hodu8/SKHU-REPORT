@@ -1,0 +1,19 @@
+package hw9_1;
+
+public class SpeakableTest {
+
+	public static void main(String[] args) {
+		System.out.println("hw9_1 : 박찬우\n");
+		Speakable[] s = new Speakable[4];
+		s[0] = new Person("강감찬");
+		s[1] = new Person("홍길동");
+		s[2] = new Dog(2);
+		s[3] = new Dog(5);
+		
+		for (int i=0; i < 4; i++) {
+			s[i].speak();
+			System.out.println(" ");
+		}
+	}
+
+}

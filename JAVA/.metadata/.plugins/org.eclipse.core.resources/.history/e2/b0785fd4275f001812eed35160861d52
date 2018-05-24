@@ -1,0 +1,15 @@
+package hw9_1;
+
+public class Dog implements Speakable{
+	int age;
+	public int getAge() {
+		return age;
+	}
+	public void setAge(int age) {
+		this.age = age;
+	}
+	@Override
+	public void speak() {
+		System.out.println();
+	}
+}
