@@ -1,2 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<qualifiedTypeNameHistroy/>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="lab9_1.MicSystem"/>
+<fullyQualifiedTypeName name="mic.Singer"/>
+<fullyQualifiedTypeName name="mic.MicSystem"/>
+</qualifiedTypeNameHistroy>

@@ -43,5 +43,7 @@ public class SingerTest {
 				System.out.println("야옹");
 			}
 		});
+		// 4. 삐약삐약이라고 노래하는 메소드를 람다식으로 마이크 테스트 매개변수로 전달
+		mic.micTest(() -> System.out.println("삐약삐약"));
 	}
 }
