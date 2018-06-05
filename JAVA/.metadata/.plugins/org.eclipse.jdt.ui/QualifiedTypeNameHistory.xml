@@ -3,4 +3,6 @@
 <fullyQualifiedTypeName name="lab9_1.MicSystem"/>
 <fullyQualifiedTypeName name="mic.Singer"/>
 <fullyQualifiedTypeName name="mic.MicSystem"/>
+<fullyQualifiedTypeName name="javax.swing.plaf.synth.SynthSplitPaneUI"/>
+<fullyQualifiedTypeName name="java.util.InputMismatchException"/>
 </qualifiedTypeNameHistroy>

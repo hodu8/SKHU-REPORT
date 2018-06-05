@@ -1,0 +1,21 @@
+package lab14_3;
+
+
+import java.io.*;
+public class Main {
+	public static void main(String[] args) {
+		f();
+		System.out.println("bye");
+	}
+	private static void f() {
+		A.g();
+	}
+}
+class A {
+	public static void g() {
+		PrintWriter out = null;
+		out = new PrintWriter("outfile.txt");
+		out.println(123);
+		if (out != null) out.close();
+	}
+}

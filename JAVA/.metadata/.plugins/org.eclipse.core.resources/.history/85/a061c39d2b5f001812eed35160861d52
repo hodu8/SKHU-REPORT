@@ -1,5 +1,0 @@
-package lab9_1;
-
-interface Singer {
-	void sing();
-}

@@ -1,5 +1,0 @@
-package hw9_1;
-
-interface Speakable {
-	public void speak();
-}
