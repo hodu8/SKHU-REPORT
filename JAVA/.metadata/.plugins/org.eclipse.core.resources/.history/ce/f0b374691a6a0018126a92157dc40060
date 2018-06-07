@@ -1,0 +1,16 @@
+package example;
+
+interface A {
+	void up();
+}
+
+interface B {
+	void down();
+	void set();
+}
+
+class X {
+	public void set() {}
+}
+class example extends X implements A,B {
+}

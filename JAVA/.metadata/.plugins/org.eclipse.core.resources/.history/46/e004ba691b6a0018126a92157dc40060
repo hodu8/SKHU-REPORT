@@ -1,0 +1,36 @@
+package example;
+
+interface A {
+	void up();
+}
+
+interface B {
+	void down();
+	void set();
+}
+
+class X {
+	public void set() {}
+}
+class example extends X implements A,B {
+
+	@Override
+	public void down() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void up() {
+		// TODO Auto-generated method stub
+		
+	}
+	A a = new example();
+	a.up();
+	a.down();
+	a.set();
+	example y = new example();
+	y.up();
+	y.down();
+	y.set();
+}

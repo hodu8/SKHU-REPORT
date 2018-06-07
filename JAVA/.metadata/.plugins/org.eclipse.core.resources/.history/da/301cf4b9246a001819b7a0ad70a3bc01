@@ -1,0 +1,17 @@
+package example;
+
+interface X {
+	int get(int a);
+}
+
+class MyClass implements X {
+	public int get (int a) {
+		return a * a;
+	}
+}
+public class example {
+	public static void main (String[] args) {
+		X obj = new MyClass();
+		System.out.println(obj.get(3));
+	}
+}
