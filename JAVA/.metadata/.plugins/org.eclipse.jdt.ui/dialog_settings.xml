@@ -53,11 +53,12 @@
 	</section>
 	<section name="FatJarPackageWizard">
 		<item value="C:\Users\박찬우\Desktop\ㄷㅎ\personal\Git\SKHU_REPORT\JAVA" key="FatJarPackageWizardPage.ANTSCRIPT_LOCATION"/>
-		<item value="WordRunnableTest - hw16_1" key="FatJarPackageWizardPage.LAUNCH_CONFIGURATION_SELECTION_NAME"/>
-		<item value="C:\Users\박찬우\Desktop\ㄷㅎ\자바 프로그래밍\과제\hw16_1.jar" key="FatJarPackageWizardPage.DESTINATION_PATH_SELECTION"/>
+		<item value="ThreadMethodTest - lab16_2" key="FatJarPackageWizardPage.LAUNCH_CONFIGURATION_SELECTION_NAME"/>
+		<item value="C:\Users\박찬우\Desktop\ㄷㅎ\자바 프로그래밍\과제\lab16_2.jar" key="FatJarPackageWizardPage.DESTINATION_PATH_SELECTION"/>
 		<item value="false" key="FatJarPackageWizardPage.ANTSCRIPT_SAVE"/>
 		<item value="1" key="FatJarPackageWizardPage.LIBRARY_HANDLING"/>
 		<list key="FatJarPackageWizardPage.DESTINATION_NAMES_ID">
+			<item value="C:\Users\박찬우\Desktop\ㄷㅎ\자바 프로그래밍\과제\lab16_2.jar"/>
 			<item value="C:\Users\박찬우\Desktop\ㄷㅎ\자바 프로그래밍\과제\hw16_1.jar"/>
 			<item value="C:\Users\박찬우\Desktop\ㄷㅎ\자바 프로그래밍\과제\lab16_1.jar"/>
 			<item value="C:\Users\박찬우\Desktop\ㄷㅎ\자바 프로그래밍\과제\hw15_1.jar"/>
@@ -77,7 +78,6 @@
 			<item value="C:\Users\박찬우\Desktop\ㄷㅎ\자바 프로그래밍\과제\lab7_2.jar"/>
 			<item value="C:\Users\박찬우\Desktop\ㄷㅎ\자바 프로그래밍\과제\mid1_3.jar"/>
 			<item value="C:\Users\박찬우\Desktop\ㄷㅎ\자바 프로그래밍\과제\mid1_2.jar"/>
-			<item value="C:\Users\박찬우\Desktop\ㄷㅎ\자바 프로그래밍\과제\mid1_1.jar"/>
 		</list>
 		<list key="FatJarPackageWizardPage.ANTSCRIPT_LOCATION_HISTORY">
 			<item value="C:\Users\박찬우\Desktop\ㄷㅎ\personal\Git\SKHU_REPORT\JAVA.xml"/>
