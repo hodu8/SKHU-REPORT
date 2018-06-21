@@ -1,0 +1,7 @@
+
+public class emp {
+	private  int sal;
+
+}
+
+class maa extends emp
