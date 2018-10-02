@@ -1,7 +1,0 @@
-
-public class emp {
-	priavet int sal;
-
-}
-
-class maa extends emp
