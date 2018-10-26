@@ -1,3 +1,10 @@
+/*
+ * 파일명 : MyLinkedStackTest.java
+ * 작성자 : 박찬우
+ * 작성일 : 2018.10.27.
+ * 설명 : MyLinkedStack 클래스를 사용하는 드라이버 클래스
+ */
+
 package hw7_2;
 
 import java.util.Scanner;
@@ -29,12 +36,15 @@ public class MyLinkedStackTest {
 				System.out.println(stack.peek());
 				break;
 			case 4:
-				if(stack.isEmpty() == true)
+				if(stack.isEmpty() == true) {
 					System.out.println(sum);
+					break;
+				}
 				while (stack.isEmpty() != true) {
 					sum += stack.pop();
 				}
 				System.out.println(sum);
+				sum = 0;
 				break;
 			case 5:
 				break;
