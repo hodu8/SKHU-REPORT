@@ -15,4 +15,5 @@
 <fullyQualifiedTypeName name="java.util.Comparator"/>
 <fullyQualifiedTypeName name="java.util.Stack"/>
 <fullyQualifiedTypeName name="java.util.Scanner"/>
+<fullyQualifiedTypeName name="hw7_2.MyLinkedStack.Node"/>
 </qualifiedTypeNameHistroy>
